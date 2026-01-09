@@ -89,8 +89,9 @@ h1 {
 
 section {
     display: grid;
-    margin: 10px;
     border: solid 1px #ddd;
+    margin: 0 10px 10px 10px;
+    background-color: #B4CDED;
 }
 
 section h2 {
@@ -99,10 +100,7 @@ section h2 {
     color: #eee;
     text-align: center;
     margin-top: 0;
-}
-
-.about {
-    background-color: #B4CDED;
+    height: 45px;
 }
 
 .about p,
@@ -112,5 +110,54 @@ section h2 {
 }
 
 .about img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 5px auto;
+    border-radius: 15px;
+}
+
+.courses {
+    margin: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+/*----------- FOOTER --------------*/
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    background-color: #fff;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+}
+
+.social a {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #0D1821;
+    border-radius: 8px;
+    margin-bottom: .7rem;
+}
+
+.social a:hover {
+    background-color: #B4CDED;
+}
+
+footer {
     text-align: center;
+    background-color: #eee;
+    margin: 10px;
+    padding: 0 0 .5rem;
+}
+
+footer p {
+    margin: .5rem;
 }
