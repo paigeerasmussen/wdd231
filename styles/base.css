@@ -1,0 +1,116 @@
+* {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0;
+    margin: 0 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 10px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+header span {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+/*----------- HAMBURGER BUTTON --------------*/
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.7rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7"
+}
+
+/*----------- NAVIGATION --------------*/
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    background-color: #eee;
+    margin-left: 10px;
+}
+
+.navigation a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    font-size: 1.1rem;
+}
+
+.navigation a:hover {
+    background-color: #0D1821;
+    color: #eee;
+}
+
+.navigation li.current {
+    background-color: #B4CDED;
+}
+
+/*----------- BODY --------------*/
+
+h1 {
+    padding-left: 10px;
+}
+
+section {
+    display: grid;
+    margin: 10px;
+    border: solid 1px #ddd;
+}
+
+section h2 {
+    background-color: #0D1821;
+    padding: .5rem;
+    color: #eee;
+    text-align: center;
+    margin-top: 0;
+}
+
+.about {
+    background-color: #B4CDED;
+}
+
+.about p,
+.about img {
+    padding: 0 .5rem .5rem .5rem;
+    margin-top: 0;
+}
+
+.about img {
+    text-align: center;
+}

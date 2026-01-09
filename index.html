@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/normalize.css">
+    <title>WDD231 Course Home Page</title>
+    <meta name="author" content="Paige Rasmussen">
+    <meta name="description" content="Course Home Page assignment for the WDD231 course for BYU-Pathway Worldwide">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel=" stylesheet" href="styles/normalize.css">
+    <script src="scripts/home.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <img src="images/hand_heart.svg" alt="Site Logo" width="16" height="16">
+        <span>Paige Rasmussen</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="https://paigeerasmussen.github.io/wdd231/">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Paige Rasmussen and I am studying Software Development at BYU-Pathway Worldwide. I
+                enjoy art and music. I served in the Lansing, Michigan mission. I currently live in Lehi, Utah with my
+                husband, and our two cats. I look forward to learning more about web design and development as I build
+                new skills for the future.</p>
+        </section>
+        <section class="about">
+            <h2>Student Photo</h2>
+            <img src="" alt="Student Photo" width="" height="">
+        </section>
+        <section>
+            <h2>Web Certificate Courses</h2>
+        </section>
+    </main>
+
+    <footer>
+        <a href="" target="_blank"><img src="images/linkedin.svg" alt="Linkedin Icon" width="16" height="16"></a>
+        <a href="" target="_blank"><img src="images/github.svg" alt="Github Icon" width="16" height="16"></a>
+        <a href="" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon" width="16" height="16"></a>
+        <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
