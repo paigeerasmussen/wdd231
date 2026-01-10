@@ -110,9 +110,8 @@ section h2 {
 }
 
 .about img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 5px auto;
     border-radius: 15px;
 }
