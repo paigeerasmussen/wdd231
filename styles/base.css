@@ -81,7 +81,7 @@ header span {
     background-color: #B4CDED;
 }
 
-/*----------- BODY --------------*/
+/*----------- MAIN --------------*/
 
 h1 {
     padding-left: 10px;
@@ -117,10 +117,63 @@ section h2 {
     border-radius: 15px;
 }
 
+/*----------- COURSES --------------*/
+
 .courses {
     margin: 10px;
     background-color: #fff;
     border: none;
+}
+
+.course-nav {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.course-nav li {
+    background-color: #eee;
+    border: solid 1px #ddd;
+    padding: .5rem 1rem;
+    margin: 10px auto;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.course-nav li:hover {
+    background-color: #B4CDED;
+}
+
+.course-nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+
+}
+
+.total-credits {
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+#false {
+    display: flex;
+    justify-content: center;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+#true {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: 550;
 }
 
 /*----------- FOOTER --------------*/
