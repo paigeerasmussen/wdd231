@@ -138,4 +138,13 @@ function createCourseCard(filteredCourses) {
 
         document.querySelector("#cert-courses").appendChild(card);
     });
+
+    const total = filteredCourses.reduce((accumulator, currentValue) => {
+        if (typeof currentValue.credits === 'number') {
+            accumulator += currentValue.credits;
+        }
+        return accumulator;
+    }, 0);
+
+    document.getElementById("tot-credits").textContent = total
 };
