@@ -5,18 +5,96 @@
         box-sizing: border-box;
     }
 
+    :root {
+        --primary-color: #E5D5E5;
+        --border: 1px solid #D6D6D6;
+    }
+
     /*----------- HEADER --------------*/
+    header {
+        display: grid;
+        grid-template-columns: 24px auto 44px;
+        background-color: var(--primary-color);
+        padding: 5px 0;
+        margin: 0 10px;
+        align-items: end;
+        border-bottom: var(--border);
+        column-gap: 10px;
+    }
+
+    header img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    header span {
+        font-size: 1.7rem;
+        padding-left: .7rem;
+    }
+
+    /*----------- HAMBURGER BUTTON --------------*/
+    .hamburger {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hamburger::before {
+        content: "\2630";
+        font-size: 1.7rem;
+    }
+
+    .hamburger.show::before {
+        content: "\00D7"
+    }
 
     /*----------- NAVIGATION --------------*/
+    .navigation {
+        display: none;
+    }
+
+    .navigation.show {
+        display: block;
+    }
+
+    .navigation ul {
+        margin: 0 10px;
+        list-style: none;
+        background-color: #F4F4F4;
+    }
+
+    .navigation a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+        font-size: 1.2rem;
+        border-bottom: var(--border);
+    }
+
+    .navigation a:hover {
+        background-color: #D0B3D0;
+    }
+
+    .navigation li.current {
+        background-color: #D6D6D6;
+    }
 
     /*----------- MAIN --------------*/
+    main {
+        margin: 0 10px;
+    }
 
     /*----------- FOOTER --------------*/
     footer {
         display: grid;
-        padding: 10px;
-        margin: .5rem 0;
-        /* background-color: ; */
+        padding: 5px 10px;
+        margin: 0 10px;
+        background-color: var(--primary-color);
     }
 
     footer div {
