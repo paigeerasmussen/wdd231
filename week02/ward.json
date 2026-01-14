@@ -1,0 +1,23 @@
+{
+    "family_name": "Smith",
+    "date_moved": "01/01/2025",
+    "family_number": 3,
+    "visited": true,
+    "individuals": [
+        {
+            "name": "John",
+            "gender": "male",
+            "birthday": "01/01/1975"
+        },
+        {
+            "name": "Linda",
+            "gender": "female",
+            "birthday": "01/01/1976"
+        },
+        {
+            "name": "Ron",
+            "gender": "male",
+            "birthday": "01/01/2000"
+        }
+    ]
+}
