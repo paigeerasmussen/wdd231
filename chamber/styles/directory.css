@@ -97,6 +97,7 @@
 
     .menu {
         display: grid;
+        grid-template-columns: 1fr 1fr;
         margin: 1rem auto;
         background-color: #D6D6D6;
         padding: .5rem;
@@ -108,7 +109,7 @@
         padding: .5rem;
     }
 
-    .grid {
+    .grid div {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
@@ -129,29 +130,26 @@
 
     .list section {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .list p,
     .list a {
         padding: .5rem;
+        text-align: center;
     }
 
     .list h2 {
+        text-align: center;
         align-content: center;
         padding: .5rem;
         font-size: 1.2rem;
-    }
-
-    .status {
-        display: none;
     }
 
     .list img {
         display: none;
     }
 
-    /*----------- SECTION --------------*/
     div {
         margin: 1rem 0;
     }
@@ -167,8 +165,6 @@
     section h2 {
         padding-bottom: .5rem;
     }
-
-    section img {}
 
     section .status {
         font-size: 1.1rem;
