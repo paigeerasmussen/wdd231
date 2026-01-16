@@ -137,12 +137,6 @@
         padding: .5rem;
     }
 
-    .list a {
-        display: block;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-    }
-
     .list h2 {
         align-content: center;
         padding: .5rem;
