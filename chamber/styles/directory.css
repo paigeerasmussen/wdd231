@@ -7,6 +7,7 @@
 
     :root {
         --primary-color: #E5D5E5;
+        --secondary-color: #D6D6D6;
         --border: 1px solid #D6D6D6;
     }
 
@@ -92,6 +93,36 @@
 
     h1 {
         margin: 10px;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 0;
+    }
+
+    section {
+        border: var(--border);
+        background-color: #F4F4F4;
+        margin: .2rem;
+        padding: 10px;
+        border: var(--border);
+        text-align: center;
+    }
+
+    section h2 {
+        padding-bottom: .5rem;
+    }
+
+    section img {
+        display: block;
+        margin: 10px auto;
+    }
+
+    section .status {
+        text-align: center;
+        font-style: italic;
+        font-size: 1.1rem;
     }
 
     /*----------- FOOTER --------------*/

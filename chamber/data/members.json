@@ -16,7 +16,7 @@
             "image": "ace.webp",
             "membership": 1
         },
-                {
+        {
             "name": "Texas Roadhouse",
             "address": "4400 American Ave., Lehi Utah 84043",
             "phone": "(333)-222-2268",
@@ -24,7 +24,7 @@
             "image": "texas.webp",
             "membership": 2
         },
-                {
+        {
             "name": "Costco",
             "address": "66 N Bounty Lane, Lehi Utah 84043",
             "phone": "(333)-222-2295",
@@ -32,15 +32,15 @@
             "image": "costco.webp",
             "membership": 3
         },
-                {
-            "name": "tsunami",
+        {
+            "name": "Tsunami",
             "address": "322 River Circle, Lehi Utah 84043",
             "phone": "(333)-222-2240",
             "website": "https://www.tsunami.com/",
             "image": "tsunami.webp",
             "membership": 1
         },
-                {
+        {
             "name": "IHOP",
             "address": "400 W 200 E, Lehi Utah 84043",
             "phone": "(333)-222-2221",
@@ -48,7 +48,7 @@
             "image": "ihop.webp",
             "membership": 2
         },
-                {
+        {
             "name": "Maceys",
             "address": "9900 Grand Road, Lehi Utah 84043",
             "phone": "(333)-222-2555",
