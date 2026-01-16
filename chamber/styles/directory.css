@@ -161,7 +161,6 @@
         background-color: var(--secondary-color);
         margin: .5rem;
         padding: 10px;
-        border: var(--border);
     }
 
     section h2 {
