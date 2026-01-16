@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Walmart",
+            "address": "123 Mcgilligan Street, Lehi Utah 84043",
+            "phone": "(333)-222-2222",
+            "website": "https://www.walmart.com/",
+            "image": "walmart.webp",
+            "membership": 3
+        },
+        {
+            "name": "Ace Hardware Store",
+            "address": "886 Lundry Road, Lehi Utah 84043",
+            "phone": "(333)-222-2224",
+            "website": "https://www.ace.com/",
+            "image": "ace.webp",
+            "membership": 1
+        },
+                {
+            "name": "Texas Roadhouse",
+            "address": "4400 American Ave., Lehi Utah 84043",
+            "phone": "(333)-222-2268",
+            "website": "https://www.texasroadhouse.com/",
+            "image": "texas.webp",
+            "membership": 2
+        },
+                {
+            "name": "Costco",
+            "address": "66 N Bounty Lane, Lehi Utah 84043",
+            "phone": "(333)-222-2295",
+            "website": "https://www.costco.com/",
+            "image": "costco.webp",
+            "membership": 3
+        },
+                {
+            "name": "tsunami",
+            "address": "322 River Circle, Lehi Utah 84043",
+            "phone": "(333)-222-2240",
+            "website": "https://www.tsunami.com/",
+            "image": "tsunami.webp",
+            "membership": 1
+        },
+                {
+            "name": "IHOP",
+            "address": "400 W 200 E, Lehi Utah 84043",
+            "phone": "(333)-222-2221",
+            "website": "https://www.ihop.com/",
+            "image": "ihop.webp",
+            "membership": 2
+        },
+                {
+            "name": "Maceys",
+            "address": "9900 Grand Road, Lehi Utah 84043",
+            "phone": "(333)-222-2555",
+            "website": "https://www.maceys.com/",
+            "image": "maceys.webp",
+            "membership": 2
+        }
+    ]
+}
