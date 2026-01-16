@@ -6,8 +6,8 @@
     }
 
     :root {
-        --primary-color: #E5D5E5;
-        --secondary-color: #D6D6D6;
+        --primary-color: #E8D9DB;
+        --secondary-color: #F4F4F4;
         --border: 1px solid #D6D6D6;
     }
 
@@ -66,7 +66,7 @@
     .navigation ul {
         margin: 0 10px;
         list-style: none;
-        background-color: #F4F4F4;
+        background-color: var(--secondary-color);
     }
 
     .navigation a {
@@ -79,7 +79,7 @@
     }
 
     .navigation a:hover {
-        background-color: #D0B3D0;
+        background-color: #D1B3B7;
     }
 
     .navigation li.current {
@@ -95,33 +95,88 @@
         margin: 10px;
     }
 
-    div {
+    .menu {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        margin: 1rem auto;
+        background-color: #D6D6D6;
+        padding: .5rem;
+        gap: 1rem;
+
+    }
+
+    .menu button {
+        padding: .5rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .grid section {
+        text-align: center;
+    }
+
+    .grid img {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .list p,
+    .list a {
+        padding: .5rem;
+    }
+
+    .list a {
+        display: block;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .list h2 {
+        align-content: center;
+        padding: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .status {
+        display: none;
+    }
+
+    .list img {
+        display: none;
+    }
+
+    /*----------- SECTION --------------*/
+    div {
         margin: 1rem 0;
     }
 
     section {
         border: var(--border);
-        background-color: #F4F4F4;
-        margin: .2rem;
+        background-color: var(--secondary-color);
+        margin: .5rem;
         padding: 10px;
         border: var(--border);
-        text-align: center;
     }
 
     section h2 {
         padding-bottom: .5rem;
     }
 
-    section img {
-        display: block;
-        margin: 10px auto;
-    }
+    section img {}
 
     section .status {
-        text-align: center;
-        font-style: italic;
         font-size: 1.1rem;
     }
 
