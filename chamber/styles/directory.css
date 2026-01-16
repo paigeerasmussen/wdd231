@@ -1,7 +1,7 @@
     * {
         padding: 0;
         margin: 0;
-        /* font-family: ; */
+        font-family: "Raleway", sans-serif;
         box-sizing: border-box;
     }
 
@@ -41,6 +41,7 @@
         border: none;
         cursor: pointer;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 2.5px;
     }
 
     .hamburger::before {
@@ -89,6 +90,10 @@
         margin: 0 10px;
     }
 
+    h1 {
+        margin: 10px;
+    }
+
     /*----------- FOOTER --------------*/
     footer {
         display: grid;
@@ -105,6 +110,18 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin: 10px auto;
+        gap: 1rem;
+    }
+
+    .social img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .social a {
+        width: 55px;
+        height: 55px;
     }
 
     footer p {

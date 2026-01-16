@@ -8,7 +8,7 @@
         grid-template-columns: 24px auto;
     }
 
-    button {
+    .hamburger {
         display: none;
     }
 
@@ -28,8 +28,8 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .social {
+    /* .social {
         display: block;
         margin: 0;
-    }
+    } */
 }
