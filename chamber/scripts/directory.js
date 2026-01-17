@@ -65,12 +65,7 @@ const displayMembers = (members) => {
 
         coImage.setAttribute("src", `images/${member.image}`);
         coImage.setAttribute("alt", member.name);
-
-        if (member.name === "Walmart") {
-            coImage.setAttribute("fetchpriority", "high");
-        } else {
-            coImage.setAttribute("loading", "lazy");
-        }
+        coImage.setAttribute("loading", "lazy");
         coImage.setAttribute("width", "400");
         coImage.setAttribute("height", "400");
 
