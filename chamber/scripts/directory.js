@@ -64,7 +64,7 @@ const displayMembers = (members) => {
         memberStatus.setAttribute("class", "status")
 
         coImage.setAttribute("src", `images/${member.image}`);
-        coImage.setAttribute("alt", member.name);
+        coImage.setAttribute("alt", `${member.name} Company`);
         coImage.setAttribute("loading", "lazy");
         coImage.setAttribute("width", "400");
         coImage.setAttribute("height", "400");
