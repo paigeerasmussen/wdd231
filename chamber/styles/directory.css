@@ -25,10 +25,10 @@
 
     header img {
         display: block;
-        width: 100%;
-        height: auto;
         padding-bottom: 5px;
         margin-left: 10px;
+        width: 32px;
+        height: 32px;
     }
 
     header span {
