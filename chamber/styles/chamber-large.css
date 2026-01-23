@@ -1,4 +1,6 @@
-    @media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 38rem) {
+
+    /*----------- UNIVERSAL --------------*/
     body {
         max-width: 1200px;
         margin: 0 auto;
@@ -24,15 +26,25 @@
         border: none;
     }
 
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /*----------- HOME --------------*/
+    .home {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .spotlight {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /*----------- DIRECTORY --------------*/
     .list h2 {
         text-align: left;
     }
 
     .list section {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-
-    footer {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }

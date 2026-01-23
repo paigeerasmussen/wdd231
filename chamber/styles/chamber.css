@@ -109,6 +109,64 @@
         padding: .5rem;
     }
 
+    /*----------- HOME --------------*/
+    .callAct {
+        float: right;
+        text-decoration: none;
+        color: #000;
+        border: var(--border);
+        border-radius: 8px;
+        padding: .5rem;
+        margin: .5rem;
+        background-color: var(--primary-color);
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .home h2 {
+        text-align: center;
+    }
+
+    .spotlight {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .spotlight section {
+        max-width: 350px;
+        border-radius: 8px;
+    }
+
+    .spotlight h2 {
+        text-align: center;
+        border-bottom: var(--border);
+    }
+
+    .spotlight img {
+        margin: .5rem;
+        padding-top: 1rem;
+        float: left;
+    }
+
+    .spotlight p {
+        margin: .5rem;
+        padding-top: .2rem;
+    }
+
+    .condition {
+        text-transform: capitalize
+    }
+
+    .hero {
+        background-image: url("chamber-meeting.webp");
+    }
+
+    /*----------- DIRECTORY --------------*/
     .grid div {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
