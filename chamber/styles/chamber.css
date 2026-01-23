@@ -198,6 +198,10 @@
         padding-top: .2rem;
     }
 
+    .costatus {
+        text-align: center;
+    }
+
     .condition {
         text-transform: capitalize
     }
