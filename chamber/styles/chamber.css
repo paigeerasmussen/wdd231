@@ -115,7 +115,6 @@
         display: flex;
         background-image: url("https://paigeerasmussen.github.io/wdd231/chamber/images/chamber-meeting.webp");
         max-width: 100%;
-        max-height: auto;
         width: 1180px;
         height: 475px;
         justify-content: flex-end;
