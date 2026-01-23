@@ -110,17 +110,30 @@
     }
 
     /*----------- HOME --------------*/
+
+    .hero {
+        display: flex;
+        background-image: url("https://paigeerasmussen.github.io/wdd231/chamber/images/chamber-meeting.webp");
+        max-width: 100%;
+        max-height: auto;
+        width: 1180px;
+        height: 475px;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
     .callAct {
-        float: right;
+        width: 180px;
+        text-align: center;
         text-decoration: none;
         color: #000;
-        border: var(--border);
+        border: 1px solid #000;
         border-radius: 8px;
-        padding: .5rem;
-        margin: .5rem;
-        background-color: var(--primary-color);
-        font-weight: 600;
-        font-size: 1.1rem;
+        padding: .8rem;
+        margin: .5rem auto;
+        background-color: var(--secondary-color);
+        font-weight: 670;
+        font-size: 1.3rem;
     }
 
     .home {
@@ -132,6 +145,32 @@
         text-align: center;
     }
 
+    .home section {
+        background-color: var(--primary-color);
+    }
+
+    .home p {
+        padding: .5rem;
+    }
+
+    .currentWeather {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .currentWeather img {
+        max-width: 100px;
+        margin: 0 auto;
+    }
+
+    .currentWeather p {
+        text-align: center;
+    }
+
+    .forecast p {
+        text-align: center;
+    }
+
     .spotlight {
         display: grid;
         grid-template-columns: 1fr;
@@ -140,6 +179,7 @@
     .spotlight section {
         max-width: 350px;
         border-radius: 8px;
+        margin: 10px auto;
     }
 
     .spotlight h2 {
@@ -160,10 +200,6 @@
 
     .condition {
         text-transform: capitalize
-    }
-
-    .hero {
-        background-image: url("chamber-meeting.webp");
     }
 
     /*----------- DIRECTORY --------------*/
