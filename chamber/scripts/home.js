@@ -83,7 +83,7 @@ const displaySpotlight = (members) => {
     });
 };
 
-const weatherIcon = document.querySelector("#weather-icon");
+const currentWeatherSection = document.querySelector("#currentWeather");
 const currentTemp = document.querySelector("#temp");
 const weatherCond = document.querySelector("#condition");
 const highTemp = document.querySelector("#high");
@@ -135,9 +135,12 @@ async function forecastFetch() {
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    let weatherIcon = document.createElement('img');
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    currentWeatherSection.appendChild(weatherIcon)
+
     weatherCond.textContent = desc;
     highTemp.innerHTML = `${data.main.temp_max}&deg;F`;
     lowTemp.innerHTML = `${data.main.temp_min}&deg;F`;
