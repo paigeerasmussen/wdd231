@@ -47,4 +47,13 @@
     .list section {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+
+    /*----------- JOIN --------------*/
+    .membership {
+        grid-template-columns: .8fr 1fr;
+    }
+
+    .membership h2 {
+        grid-row: 1/2;
+    }
 }

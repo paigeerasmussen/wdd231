@@ -130,6 +130,10 @@ function createCourseCard(filteredCourses) {
             card.id = "false"
         }
 
+        card.addEventListener('click', () => {
+            displayCourseDetails(courses);
+        });
+
         subject.textContent = course.subject;
         number.textContent = course.number;
 
@@ -148,3 +152,22 @@ function createCourseCard(filteredCourses) {
 
     document.getElementById("tot-credits").textContent = total
 };
+
+const courseDetails = document.querySelector("#course-details");
+
+function displayCourseDetails(courses) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeButton">❌</button>
+    <h2>${courses.subject} ${courses.number}</h2>
+    <h3>${courses.title}</h3>
+    <p><strong>Credits</strong>: ${courses.credits}</p>
+    <p><strong>Certificate</strong>: ${courses.certificate}</p>
+    <p>${courses.description}</p>
+    <p><strong>Technologies</strong>: ${courses.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+    closeButton.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
