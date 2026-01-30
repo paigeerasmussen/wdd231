@@ -275,6 +275,7 @@
 
     .membership h2 {
         font-weight: 450;
+        padding: 10px 0 0 10px;
     }
 
     .form fieldset {
@@ -302,10 +303,6 @@
     .memlevels h3 {
         text-align: center;
         padding: .5rem 0 1rem;
-    }
-
-    .membership h2 {
-        padding: 10px 0 0 10px;
     }
 
     .memlevels button {
