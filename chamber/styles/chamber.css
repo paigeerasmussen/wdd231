@@ -301,10 +301,50 @@
 
     .memlevels h3 {
         text-align: center;
+        padding: .5rem 0 1rem;
+    }
+
+    .membership h2 {
+        padding: 10px 0 0 10px;
     }
 
     .memlevels button {
-        padding: .2rem;
+        padding: .5rem;
+        margin: .5rem auto;
+        background-color: var(--primary-color);
+        border: var(--border);
+        border-radius: 8px;
+    }
+
+    .memlevels section {
+        display: grid;
+        padding: 1rem;
+        margin: 1rem;
+        animation-name: fadeIn;
+        animation-duration: 2.5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    dialog {
+        margin-top: auto;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        max-width: 900px;
+    }
+
+    dialog p {
+        font-weight: 500;
+        padding-bottom: 1rem;
     }
 
     .thanks {

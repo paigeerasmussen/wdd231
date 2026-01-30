@@ -56,4 +56,10 @@
     .membership h2 {
         grid-row: 1/2;
     }
+
+    dialog {
+        margin: 15rem 1rem;
+        margin-left: auto;
+        padding: 2rem 1rem;
+    }
 }

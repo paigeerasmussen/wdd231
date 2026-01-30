@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/join.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
     <link rel="icon" href="favicon.ico">
 </head>
 
@@ -72,21 +73,44 @@
             </form>
             <h2>Membership Levels</h2>
             <div class="memlevels">
-                <section id="np">
+                <section>
                     <h3>Non Profit Membership Level</h3>
-                    <button>Learn More</button>
+                    <button id="npOpen">Learn More</button>
+                    <dialog id="npDialog">
+                        <p>The Non Profit Membership is a no fee membership. Your buisness will be displayed on the
+                            Directory page of our website.</p>
+                        <button id="npClose">Close</button>
+                    </dialog>
                 </section>
-                <section id="bronze">
+                <section>
                     <h3>Bronze Membership Level</h3>
-                    <button>Learn More</button>
+                    <button id="bronzeOpen">Learn More</button>
+                    <dialog id="bronzeDialog">
+                        <p>The Bronze Membership is a $100 per year membership. Your buisness will be displayed on the
+                            Directory page of our website, and you will be invited to all trainings and benfits.</p>
+                        <button id="bronzeClose">Close</button>
+                    </dialog>
                 </section>
                 <section id="silver">
                     <h3>Silver Membership Level</h3>
-                    <button>Learn More</button>
+                    <button id="silverOpen">Learn More</button>
+                    <dialog id="silverDialog">
+                        <p>The Silver Membership is a $500 per year membership. Your buisness will be displayed on the
+                            Directory page of our website, as well as spotlighted on the Home page. You will be invited
+                            to all trainings, special trainings and benfits.</p>
+                        <button id="silverClose">Close</button>
+                    </dialog>
                 </section>
                 <section id="gold">
                     <h3>Gold Membership Level</h3>
-                    <button>Learn More</button>
+                    <button id="goldOpen">Learn More</button>
+                    <dialog id="goldDialog">
+                        <p>The Gold Membership is a $1000 per year membership. Your buisness will be displayed on the
+                            Directory page of our website, as well as spotlighted on the Home page. You will be invited
+                            to all trainings, special trainings and benfits. You will receive exclusive event discounts
+                            and gifts.</p>
+                        <button id="goldClose">Close</button>
+                    </dialog>
                 </section>
             </div>
         </div>
