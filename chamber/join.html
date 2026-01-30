@@ -47,26 +47,26 @@
             <form action="thankyou.html" method="get" class="form" id="form">
                 <fieldset>
                     <label for="fName">*First Name </label><input autocomplete="given-name" type="text" name="fName"
-                        title="First Name" required>
+                        title="First Name" id="fName" required>
                     <label for="lName">*Last Name </label><input autocomplete="family-name" type="text" name="lName"
-                        title="Last Name" required>
+                        title="Last Name" id="lName" required>
                     <label for="orgTitle">Title </label><input autocomplete="organization-title" type="text"
                         pattern="[A-Za-z \-]{7,}$" name="orgTitle"
-                        title="The Oranization Title must contain at least 7 characters- letters, spaces, and hyphens only.">
+                        id="organization-title" title="The Oranization Title must contain at least 7 characters- letters, spaces, and hyphens only.">
                     <label for="email">*Email </label><input autocomplete="email" type="email" name="email"
-                        title="Email" placeholder="yourname@gmail.com" required>
+                        title="Email" placeholder="yourname@gmail.com" id="email" required>
                     <label for="phone">*Phone Number </label><input autocomplete="tel" type="tel" name="phone"
-                        title="Phone Number" required>
+                        title="Phone Number" id="phone" required>
                     <label for="organization">*Organization </label><input autocomplete="organization" type="text"
-                        name="organization" title="Organization Name" required>
-                    <label for="membership">Membership Level </label><select name="membership">
+                        name="organization" title="Organization Name" id="organization" required>
+                    <label for="membership">Membership Level </label><select name="membership" id="membership">
                         <option value="" disabled selected>Select an Option ...</option>
                         <option value="np">Non Profit Membership</option>
                         <option value="bronze">Bronze Membership</option>
                         <option value="silver">Silver Membership</option>
                         <option value="gold">Gold Membership</option>
                     </select>
-                    <label for="orgDescription">Business Description </label><textarea name="orgDescription"
+                    <label for="orgDescription">Business Description </label><textarea name="orgDescription" id="orgDescription"
                         title="Organization Description"></textarea>
                     <input type="hidden" name="timestamp" id="timestamp">
                     <button type="submit" id="submit">Apply for Membership</button>
