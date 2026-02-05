@@ -20,11 +20,16 @@ main {
 
 header {
     padding: .7rem;
+    font-size: 1.2rem;
 }
 
 nav {
     padding: .5rem;
     background-color: var(--accent-color);
+}
+
+h1 {
+    grid-column: 1/4;
 }
 
 h2 {
