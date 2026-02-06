@@ -14,7 +14,7 @@ navbutton.addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const tStamp = document.querySelector("#timestamp");
-    tStamp.value = new Date().toLocaleString();;
+    tStamp.value = new Date().toLocaleString();
 });
 
 const myInfo = new URLSearchParams(window.location.search);

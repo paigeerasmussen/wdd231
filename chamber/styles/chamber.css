@@ -362,7 +362,49 @@
     }
 
     /*----------- DISCOVER --------------*/
-    
+    .areas section {
+        display: grid;
+        overflow: hidden;
+        grid-template-areas:
+            "title"
+            "image"
+            "address"
+            "description"
+            "button";
+    }
+
+    .areas h2 {
+        grid-area: title;
+    }
+
+    .areas img {
+        grid-area: image;
+        display: flex;
+        margin: 1rem auto;
+    }
+
+    .areas address {
+        padding: 1rem 0;
+        grid-area: address;
+    }
+
+    .areas p {
+        margin: 1rem 0;
+        grid-area: description;
+    }
+
+    .areas button {
+        background-color: var(--primary-color);
+        border: var(--border);
+        padding: .5rem;
+        border-radius: 8px;
+        font-weight: 600;
+        grid-area: button;
+    }
+
+    #date {
+        text-align: center;
+    }
 
     /*----------- FOOTER --------------*/
     footer {

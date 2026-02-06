@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 641px) {
 
     /*----------- UNIVERSAL --------------*/
     body {
@@ -64,4 +64,27 @@
     }
 
     /*----------- DISCOVER --------------*/
+
+    .areas img:hover {
+        box-shadow: 10px 10px 5px #a9a9a9;
+    }
+
+    .areas section {
+        grid-template-areas:
+            "title title"
+            "image description"
+            "image address"
+            "button button";
+    }
+
+    .areas p {
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .areas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
