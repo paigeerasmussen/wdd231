@@ -95,7 +95,7 @@ h1 {
 .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr 1fr;
     gap: 1rem;
 }
 
