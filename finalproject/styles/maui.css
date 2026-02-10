@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #343333;
+    --secondary-color: #F8FAF0;
+    --font-color: #19381D;
+    --accent-color: #EAF0D1;
+    --border: solid 1px #ddd;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--font-color);
+}
+
+body {
+    margin: 0 auto;
+}
+
+/*----------- HEADER --------------*/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0;
+    align-items: end;
+    border-bottom: var(--border);
+    column-gap: 10px;
+}
+
+header img {
+    margin: 0 10px;
+    padding-bottom: 2px;
+}
+
+header span {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+
+/*----------- HAMBURGER BUTTON --------------*/
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.7rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7"
+}
+
+/*----------- NAVIGATION --------------*/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    font-size: 1.1rem;
+}
+
+.navigation a:hover {
+    background-color: var(--accent-color);
+}
+
+.navigation li.current {
+    background-color: var(--secondary-color);
+}
+
+/*----------- MAIN --------------*/
+h1 {
+    padding: 10px;
+}
+
+/*----------- HOME --------------*/
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.action {
+    background-image: url();
+}
+
+/*----------- WEATHER --------------*/
+.weather {
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 0 1rem 1rem;
+}
+
+.weather h2 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--secondary-color);
+}
+
+.weather div section {
+    display: flex;
+    background-color: #fff;
+}
+
+.weather div section div {
+    padding: 1rem;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    text-align: center;
+    border-top: var(--border);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    background-color: var(--secondary-color);
+}
