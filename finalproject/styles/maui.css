@@ -95,19 +95,20 @@ h1 {
 .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
 }
 
 .action {
     display: flex;
     background-image: url(https://paigeerasmussen.github.io/wdd231/finalproject/images/calltoaction.webp);
+    margin: 10px;
 }
 
 .callAction {
     padding: .5rem;
-    background-color: var(--accent-color);
-    border: var(--border);
+    background-color: var(--font-color);
+    border: none;
     border-radius: 8px;
     font-size: 1.2rem;
     font-weight: 600;
@@ -117,10 +118,10 @@ h1 {
 
 .callAction a {
     text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .welcome {
-    border: var(--border);
     padding: 1rem;
     background-color: var(--secondary-color);
     margin: 10px;
@@ -128,18 +129,22 @@ h1 {
 
 .welcome h2 {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    margin-top: 3rem;
 }
 
 .welcome p {
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.5;
+    background-color: #fff;
+    padding: 0 1rem 2rem;
 }
 
 /*----------- WEATHER --------------*/
 .weather {
-    margin: 0 auto;
+    margin: 10px;
     background-color: var(--primary-color);
     padding: 0 1rem 1rem;
 }
