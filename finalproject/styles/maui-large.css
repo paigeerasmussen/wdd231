@@ -25,7 +25,18 @@
         border: none;
     }
 
-    .main {
-        grid-template-columns: 1fr 2fr;
+    .weather {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
+
+    /* .weather div {
+        margin: 1rem;
+    }
+
+    .weather div section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: 1fr;
+    } */
 }
