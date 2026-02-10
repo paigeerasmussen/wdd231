@@ -99,7 +99,23 @@ h1 {
 }
 
 .action {
+    display: flex;
     background-image: url(https://paigeerasmussen.github.io/wdd231/finalproject/images/calltoaction.webp);
+}
+
+.callAction {
+    padding: .5rem;
+    background-color: var(--accent-color);
+    border: var(--border);
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 28rem auto 0;
+    max-height: 50px;
+}
+
+.callAction a {
+    text-decoration: none;
 }
 
 /*----------- WEATHER --------------*/
