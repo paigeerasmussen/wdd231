@@ -24,4 +24,12 @@
     .navigation a {
         border: none;
     }
+
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .action {
+        grid-column: 1/3;
+    }
 }
