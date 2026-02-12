@@ -38,8 +38,8 @@ const displayAttractions = (filteredAttractions) => {
         image.setAttribute("src", `images/${attraction.image}`);
         image.setAttribute("alt", attraction.name);
         image.setAttribute("loading", "lazy");
-        image.setAttribute("width", "300");
-        image.setAttribute("height", "200");
+        image.setAttribute("width", "500");
+        image.setAttribute("height", "333");
 
         card.appendChild(title);
         card.appendChild(image);

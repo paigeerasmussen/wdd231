@@ -238,6 +238,8 @@ dialog p {
     display: flex;
     margin: 0 auto;
     padding-bottom: .5rem;
+    width: 300px;
+    height: auto;
 }
 
 
