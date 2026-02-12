@@ -95,7 +95,7 @@ h1 {
 .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 550px auto 1fr;
     gap: 1rem;
 }
 
@@ -107,18 +107,15 @@ h1 {
 
 .callAction {
     padding: .5rem;
-    background-color: var(--font-color);
+    background-color: var(--accent-color);
     border: none;
     border-radius: 8px;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     margin: 28rem auto 0;
     max-height: 50px;
-}
-
-.callAction a {
     text-decoration: none;
-    color: var(--secondary-color);
+    align-content: center;
 }
 
 .welcome {
@@ -131,7 +128,7 @@ h1 {
     text-align: center;
     padding: 2rem 1rem;
     background-color: #fff;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .welcome p {
@@ -140,6 +137,11 @@ h1 {
     line-height: 1.5;
     background-color: #fff;
     padding: 0 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
+#date {
+    text-align: center;
 }
 
 /*----------- WEATHER --------------*/
@@ -158,6 +160,7 @@ h1 {
 .weather div section {
     display: flex;
     background-color: #fff;
+    flex-wrap: wrap;
 }
 
 .weather div section div {
@@ -165,10 +168,135 @@ h1 {
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
+    margin: 0 auto;
 }
 
 .weather p {
     padding: .5rem 0;
+    text-transform: capitalize;
+}
+
+/*----------- ATTRACTIONS --------------*/
+.filters {
+    display: flex;
+    padding: .5rem;
+    justify-content: center;
+}
+
+.filters button {
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    margin: 0 1rem;
+    border: var(--border);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+dialog {
+    max-width: 800px;
+    margin: 8rem auto;
+    border: var(--border);
+}
+
+dialog p {
+    padding: 1rem 1rem 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.attractions button {
+    display: flex;
+    padding: .5rem;
+    background-color: var(--accent-color);
+    border: var(--border);
+    border-radius: 8px;
+    margin: 0 .5rem .5rem auto;
+}
+
+.attractions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.attractions section {
+    border: var(--border);
+    padding: 1rem 1rem 0;
+    border-radius: 8px;
+    margin: .5rem;
+}
+
+.attractions p,
+.attractions address,
+.attractions h2 {
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+.attractions img {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+}
+
+
+/*----------- FORM --------------*/
+.formP {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: .5rem;
+}
+
+form {
+    margin: 10px auto;
+    max-width: 400px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: var(--border);
+    border-radius: 8px;
+    background-color: var(--primary-color);
+}
+
+fieldset label {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    padding: .3rem 0;
+    max-width: 350px;
+    margin: .5rem;
+}
+
+form input,
+form textarea {
+    max-width: 350px;
+    padding: .4rem;
+    margin: 0 .5rem;
+}
+
+form button {
+    margin: 1rem 10px .5rem;
+    padding: .5rem 0;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    max-width: 350px;
+}
+
+/*----------- FORM ACTION --------------*/
+.formHeader {
+    text-align: center;
+}
+
+.results {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 /*----------- FOOTER --------------*/

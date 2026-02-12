@@ -27,10 +27,18 @@
 
     .main {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 550px 1fr;
     }
 
     .action {
+        grid-column: 1/3;
+    }
+
+    .weather div section {
+        flex-wrap: nowrap;
+    }
+
+    #date {
         grid-column: 1/3;
     }
 }

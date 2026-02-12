@@ -24,6 +24,7 @@
     <header>
         <img src="images/logo.svg" alt="Logo" width="35" height="35" loading="lazy">
         <span>Attractions of Maui</span>
+        <button id="ham-btn" class="hamburger" aria-label="hamburger"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
@@ -34,9 +35,23 @@
     </nav>
     <main>
         <h1>More</h1>
-        <fieldset>
-            <form action="form.html"></form>
-        </fieldset>
+        <p class="formP">Want more information? Fill out this survey to recive a FREE informational pamphlet!</p>
+        <form action="form.html">
+            <fieldset>
+                <label for="fName">*First Name </label><input autocomplete="given-name" type="text" name="fName"
+                    title="First Name" id="fName" required>
+                <label for="lName">*Last Name </label><input autocomplete="family-name" type="text" name="lName"
+                    title="Last Name" id="lName" required>
+                <label for="email">*Email </label><input autocomplete="email" type="email" name="email" title="Email"
+                    placeholder="yourname@gmail.com" id="email" required>
+                <label for="phone">*Phone Number </label><input autocomplete="tel" type="tel" name="phone"
+                    title="Phone Number" id="phone" placeholder="222-222-1234" required>
+                <label for="excited">What are you most looking forward to doing in Maui?</label><textarea name="excited"
+                    id="excited" title="Looking Forward"></textarea>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <button type="submit" id="submit">Get Pamphlet</button>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>

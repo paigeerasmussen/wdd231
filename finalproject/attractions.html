@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900" rel="stylesheet">
     <link rel="stylesheet" href="styles/maui.css">
     <link rel="stylesheet" href="styles/maui-large.css">
-    <script src="scripts/attractions.js" defer></script>
+    <script type="module" src="scripts/attractions.js"></script>
     <link rel="icon" href="favicon.ico">
 </head>
 
@@ -24,6 +24,7 @@
     <header>
         <img src="images/logo.svg" alt="Logo" width="35" height="35" loading="lazy">
         <span>Attractions of Maui</span>
+        <button id="ham-btn" class="hamburger" aria-label="hamburger"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
@@ -34,6 +35,13 @@
     </nav>
     <main>
         <h1>Attractions</h1>
+        <div class="filters">
+            <button id="all">All</button>
+            <button id="food">Places to Eat</button>
+            <button id="outdoor">Outdoor Adventures</button>
+            <button id="relax">Relaxation</button>
+        </div>
+        <div id="cards" class="attractions"></div>
     </main>
     <footer>
         <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
