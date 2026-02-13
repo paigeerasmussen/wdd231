@@ -149,10 +149,10 @@ h1 {
     margin: 10px;
     background-color: var(--primary-color);
     padding: 0 1rem 1rem;
+    color: var(--secondary-color);
 }
 
-.weather h2,
-.weather p {
+.weather h2 {
     text-align: center;
     padding: 1rem;
     color: var(--secondary-color);
@@ -161,6 +161,7 @@ h1 {
 .weather div section {
     display: flex;
     flex-wrap: wrap;
+    background-color: #fff;
 }
 
 .weather div section div {
