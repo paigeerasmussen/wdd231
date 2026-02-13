@@ -151,7 +151,8 @@ h1 {
     padding: 0 1rem 1rem;
 }
 
-.weather h2 {
+.weather h2,
+.weather p {
     text-align: center;
     padding: 1rem;
     color: var(--secondary-color);
@@ -159,7 +160,6 @@ h1 {
 
 .weather div section {
     display: flex;
-    background-color: #fff;
     flex-wrap: wrap;
 }
 
@@ -263,6 +263,7 @@ fieldset {
     border: var(--border);
     border-radius: 8px;
     background-color: var(--primary-color);
+    color: var(--secondary-color)
 }
 
 fieldset label {
