@@ -51,7 +51,7 @@ const attractions = [
         name: "Road to Hāna Scenic Drive",
         address: "Hāna Hwy, Maui, HI",
         price: "Free (car rental not included)",
-        image: ".webp",
+        image: "hana.webp",
         description: "This legendary coastal drive features waterfalls, lush rainforests, and dramatic ocean views. Along the way, visitors can stop to hike, swim, and explore hidden gems around every curve.",
         category: "outdoor"
     },
@@ -59,7 +59,7 @@ const attractions = [
         name: "Molokini Snorkeling Tour",
         address: "Maalaea Harbor, Wailuku, HI 96793",
         price: "$$$",
-        image: ".webp",
+        image: "snorkeling.webp",
         description: "Snorkel in crystal-clear waters at Molokini Crater, a partially submerged volcanic cone. The protected marine sanctuary is home to vibrant coral reefs and abundant tropical fish.",
         category: "outdoor"
     },
@@ -67,7 +67,7 @@ const attractions = [
         name: "Lahaina Banyan Court Park",
         address: "648 Wharf St, Lahaina, HI 96761",
         price: "Free",
-        image: ".webp",
+        image: "lahaina.webp",
         description: "Home to one of the largest banyan trees in the United States, this historic park provides shade and charm in the heart of Lahaina. It’s a peaceful place to stroll and enjoy ocean views.",
         category: "outdoor"
     },
@@ -75,7 +75,7 @@ const attractions = [
         name: "ʻĪao Valley State Monument",
         address: "54 S High St, Wailuku, HI 96793",
         price: "$5 parking",
-        image: ".webp",
+        image: "iao.webp",
         description: "Explore lush green mountains and scenic walking paths in this historic valley. The iconic ʻĪao Needle rises dramatically above the landscape, offering a short but rewarding hike.",
         category: "outdoor"
     },
@@ -83,7 +83,7 @@ const attractions = [
         name: "Kaanapali Beach",
         address: "Kaanapali Pkwy, Lahaina, HI 96761",
         price: "Free",
-        image: ".webp",
+        image: "kaanapali.webp",
         description: "This world-famous beach features golden sand and calm turquoise waters perfect for swimming and sunbathing. Visitors can relax seaside or enjoy nearby resorts and dining options.",
         category: "relax"
     },
@@ -91,7 +91,7 @@ const attractions = [
         name: "Wailea Beach",
         address: "Wailea Alanui Dr, Wailea, HI 96753",
         price: "Free",
-        image: ".webp",
+        image: "wailea.webp",
         description: "Located near luxury resorts, Wailea Beach is known for its soft sand and gentle waves. It’s an ideal spot to unwind while enjoying spectacular sunset views.",
         category: "relax"
     },
@@ -99,7 +99,7 @@ const attractions = [
         name: "Ho‘okipa Beach Park",
         address: "179 Hana Hwy, Paia, HI 96779",
         price: "Free",
-        image: ".webp",
+        image: "hookipa.webp",
         description: "A scenic beach popular for watching sea turtles resting along the shore. It’s also a favorite surf and windsurf location, making it relaxing yet lively to observe.",
         category: "relax"
     },
@@ -107,7 +107,7 @@ const attractions = [
         name: "Spa Montage Kapalua Bay",
         address: "1 Bay Dr, Lahaina, HI 96761",
         price: "$$$$",
-        image: ".webp",
+        image: "spa.webp",
         description: "Indulge in luxury spa treatments inspired by traditional Hawaiian healing practices. The tranquil oceanfront setting provides a peaceful escape for rest and rejuvenation.",
         category: "relax"
     },
@@ -115,7 +115,7 @@ const attractions = [
         name: "Maui Tropical Plantation",
         address: "1670 Honoapiilani Hwy, Wailuku, HI 96793",
         price: "$$",
-        image: ".webp",
+        image: "plantation.webp",
         description: "Stroll through beautifully landscaped grounds showcasing tropical crops and island agriculture. The plantation offers a relaxing atmosphere with scenic views and casual dining options.",
         category: "relax"
     }
