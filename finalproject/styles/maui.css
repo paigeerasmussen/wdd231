@@ -161,7 +161,6 @@ h1 {
 .weather div section {
     display: flex;
     flex-wrap: wrap;
-    background-color: #fff;
 }
 
 .weather div section div {
@@ -175,6 +174,11 @@ h1 {
 .weather p {
     padding: .5rem 0;
     text-transform: capitalize;
+    color: var(--secondary-color);
+}
+
+.weather img {
+    color: var(--secondary-color);
 }
 
 /*----------- ATTRACTIONS --------------*/
